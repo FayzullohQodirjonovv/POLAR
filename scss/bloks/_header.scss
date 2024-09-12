@@ -1,0 +1,30 @@
+.header {
+    background-color: $light__pink;
+
+    &__container {
+        @include df-row-between-center;
+    }
+
+    &__logo {}
+
+    &__logo-img {}
+
+    &__list {
+        @include df-row-center-center;
+        gap: 20px;
+    }
+
+    &__lists {}
+
+    &__links {
+        @include df-row-center-center;
+
+
+    }
+
+    &__button {
+        @include button;
+    }
+}
+
+.container {}

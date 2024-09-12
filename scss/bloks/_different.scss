@@ -1,0 +1,53 @@
+.different {
+    background-color: $pink__we;
+    margin-top: 90px;
+    &__container {
+        @mixin df-column-center-center {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+
+        }
+    }
+
+
+    &__boxes {
+        padding: 80px;
+        @mixin df-column-center-center {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    &__title {
+        width:20%;
+
+    }
+
+
+    &__text {
+
+        opacity: 60%;
+        width: 442px;
+        margin-bottom: 17px;
+        
+    }
+
+
+    &__button {
+
+        @include button
+    }
+
+    &__images {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-left: +700px;
+        margin-top: -420px;
+        margin-bottom: 10px;
+    }
+}

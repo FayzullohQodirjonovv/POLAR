@@ -1,0 +1,51 @@
+.list {
+
+    padding: 200px;
+
+    &__container {}
+
+
+    &__images {
+        margin-left: -90px
+    }
+
+
+    &__images-one {
+        @include df-column-end-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: start;
+        margin-left: +780px;
+        margin-top: -360px;
+    }
+
+
+    &__title {}
+
+
+    &__text {
+        width: 454px;
+        opacity: 70%;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 10px;
+    }
+
+
+    &__list {
+        font-family: "Hind Madurai", sans-serif;
+        font-size: 26px;
+        font-weight: 500;
+
+    }
+
+
+    &__stike {}
+
+
+    &__button {
+        @include button
+    }
+}

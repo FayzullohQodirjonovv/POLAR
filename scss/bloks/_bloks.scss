@@ -1,0 +1,46 @@
+@import 'container';
+@import 'variables';
+@import 'mixsin';
+@import 'button';
+@import 'header';
+@import 'hero';
+@import 'category';
+@import 'different';
+@import 'our';
+@import 'bred';
+@import 'line';
+@import 'list';
+@import 'choco';
+@import 'koko';
+@import 'simple';
+@import 'text';
+@import 'footer';
+::-webkit-scrollbar {
+    width: 0.4rem;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: $n;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: $pink;
+    border-radius: 10px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

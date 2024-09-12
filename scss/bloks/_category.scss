@@ -1,0 +1,36 @@
+.category {
+    margin-top: 70px;
+
+    &__container {
+        @include df-row-between-center;
+
+    }
+
+    &__box {
+        @include df-row-between-center;
+        width: 100%;
+        text-align: center;
+
+
+    }
+
+    &__boxes {
+        @include df-column-center-center;
+        width: 200px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        width: 250px;
+        height: 200px;
+    }
+
+
+    &__icons {}
+
+    &__title {
+        padding: 9px;
+    }
+
+    &__texts {
+        width: 200px;
+
+    }
+}

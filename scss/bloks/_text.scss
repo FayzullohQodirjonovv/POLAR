@@ -1,0 +1,57 @@
+.text {
+    margin-top: 150px;
+
+
+    &__container {
+        @include df-column-center-center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    &__center {
+        @include df-column-center-center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    &__title {
+        width: 538px;
+        font-family: "Roboto", sans-serif;
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 51.56px;
+        text-align: center;
+    }
+
+
+    &__forma {
+        border: 2px solid red;
+        margin-top: 86px;
+        padding: 15px 10px;
+        background-color: #FAFAFA;
+        width: 550px;
+        #phone {
+            background-color: transparent;
+            border: transparent;
+            
+        }
+
+        #submit {
+            border-radius: 5px;
+            background-color: $pink;
+            padding: 20px 52px;
+            font-weight: 400;
+            font-size: 14px;
+            color: $white;
+            margin-left: +199px;
+    
+        }
+
+    }
+}

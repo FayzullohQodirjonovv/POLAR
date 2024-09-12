@@ -1,0 +1,54 @@
+.bred {
+    &__container {
+
+    }
+
+
+    &__images-one {
+        
+        @include df-column-end-start;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: start;
+            margin-left: +780px;
+            margin-top: -360px;
+
+    }
+
+
+    &__title {
+  font-family: "Hind Madurai", sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+    }
+
+
+    &__text {
+        width: 454px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $black;
+        opacity: 70%;
+
+    }
+
+
+    &__list {
+        font-family: "Hind Madurai", sans-serif;
+        font-weight: 500;
+        font-size: 26px;
+    }
+
+
+    &__stike {
+        opacity: 70%;
+    }
+
+
+    &__button {
+        @include button
+    }
+}

@@ -1,0 +1,64 @@
+.koko {
+    margin-top: -400px;
+margin-left: 224px;
+    &__container {
+        @include df-row-between-center;
+
+    }
+
+
+    &__righ {
+        @include df-column-center-start;
+
+    }
+
+
+    &__righ-box {
+
+        @include df-row-center-center;
+        margin-bottom: 46px;
+        gap: 20px
+        
+    }
+
+    &__righ-mini-box {
+        @include df-column-center-start;
+
+    }
+
+
+    &__title {
+        font-weight: 700;
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        color: $black;
+    }
+
+    &__text {
+        font-weight: 500;
+        font-family: "Roboto", sans-serif;
+        color: $black;
+    }
+
+
+    &__q {}
+
+
+    &__bottom {
+        width: 322px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        line-height: 24px;
+
+    }
+
+
+    &__top-righ {
+        @include df-row-center-center;
+        margin-top: 46px;
+        gap: 26px;
+    }
+
+
+    &__top-images {}
+}

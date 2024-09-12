@@ -1,0 +1,61 @@
+.simple {
+    margin-top: 210px;
+    margin-left: +690px;
+
+    &__container {
+        @include df-column-center-start;
+    }
+
+
+    &__title {
+        width: 681px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 45px;
+        color: $black;
+        margin-bottom: 20px;
+
+    }
+
+
+    &__text {
+        width: 607px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: $black;
+        margin-bottom: 20px;
+    }
+
+
+    &__mid-boxes {
+        margin: 5px;
+    }
+
+
+    &__mide-boxes {}
+
+
+
+
+    &__icons {}
+
+
+
+    &__dokis {
+    }
+
+
+
+    &__icons-name{
+        width: 621px;
+        font-family: "Roboto", sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        margin-left: +90px;
+        margin-top: -40px;
+    }
+
+
+    &__button {}
+}
